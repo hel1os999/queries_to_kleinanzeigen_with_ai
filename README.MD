@@ -3,10 +3,13 @@
 <p align="center">
     Simplifying eBay queries using LangChain with qwen3:8b model.
     <br />
-    Installation instruction is provided below.
+    <b> Do: git clone https://github.com/hel1os999/queries_to_kleinanzeigen_with_ai.git</b>
+    <br />
+    <br /> 
+    Installation is provided bellow
     <br />
     Based on: https://github.com/DanielWTE/ebay-kleinanzeigen-api
-    <br />
+
 </p>
 
 
@@ -64,8 +67,13 @@ cd ebay-kleinanzeigen-api
 pip install -r requirements.txt
 playwright install chromium
 ```
+3. Run docker compose
 
-3. Start the API
+```sh
+docker-compose up -d
+```
+
+4. Start the API
 
 ```sh
 uvicorn main:app --reload
