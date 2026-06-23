@@ -1,3 +1,16 @@
+# Queries with ai 
+
+<p align="center">
+    Simplifying eBay queries using LangChain with qwen3:8b model.
+    <br />
+    Installation instruction is provided below.
+    <br />
+    Based on: https://github.com/DanielWTE/ebay-kleinanzeigen-api
+    <br />
+</p>
+
+
+
 # Ebay Kleinanzeigen API
 
 <div align="center">
